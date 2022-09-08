@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Praktikum 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-around mt-5">
+      <h3>Form Input Data Smartphone</h3>
+      <div class="col-md-4 mb-5">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name Type</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" class="form-control" id="price" required aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="imei" class="form-label">IMEI</label>
+            <input type="number" class="form-control" id="imei" required>
+          </div>
+          <label for="jurusan" class="form-label">Brand</label>
+          <select class="form-select mb-3" aria-label="Default select example" id="brand" required>
+            <option selected>Pilih</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple</option>
+            <option value="Sony">Sony</option>
+            <option value="Xiomi">Xiomi</option>
+            <option value="Huawei">Huawei</option>
+          </select>
+          <button type="button" class="btn btn-primary" id="btnSubmit">Insert</button>
+        </form>
+      </div>
+      <div class="col-md-7">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Neme Type</th>
+                <th scope="col">IMEI</th>
+                <th scope="col">Price</th>
+                <th scope="col">Brand</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+
+  <script>
+    let inputName = document.getElementById('name')
+    let inputImei = document.getElementById('imei')
+    let inputPrice = document.getElementById('price')
+    let inputBrand = document.getElementById('brand')
+    let btnSubmit = document.getElementById('btnSubmit')
+
+
+    const fillData = () => {
+      const getData = JSON.parse(localStorage.getItem('data'))
+      const tbody = document.getElementById('tbody')
+      console.log(getData);
+
+      if (getData !== null) {
+        let template = getData.map((data, i) =>
+          (`
+        <tr>
+          <th scope="row">${i+1}</th>
+          <td>${data.name}</td>
+          <td>${data.imei}</td>
+          <td>${data.price}</td>
+          <td>${data.brand}</td>
+        </tr>
+        `)
+        ).join('')
+        tbody.innerHTML = template
+
+      } else {
+        tbody.innerHTML = '<h5>Data is empty</h5>'
+      }
+    }
+    fillData()
+    btnSubmit.onclick = () => {
+      let data = {
+        imei: inputImei.value,
+        name: inputName.value,
+        price: inputPrice.value,
+        brand: inputBrand.value,
+      }
+      console.log(data);
+
+      let checkData = JSON.parse(localStorage.getItem('data'))
+      if (checkData == null) {
+        localStorage.setItem('data', JSON.stringify([data]))
+      } else {
+        localStorage.setItem('data', JSON.stringify([...checkData, data]))
+      }
+      fillData()
+    }
+  </script>
+</body>
+
+</html>
