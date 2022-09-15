@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum 2</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      background: #eee;
+    }
+
+    #form-container {
+      padding: 12px;
+      flex-grow: 1;
+    }
+
+    #form-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #form-container form input {
+      margin-bottom: .5em;
+      padding: .5em;
+      border-radius: 1em;
+      outline: none;
+      border: none;
+    }
+
+    #btnSubmit,
+    #btnJson {
+      background: #abcdef;
+      border: 0;
+      padding: .6em;
+      border-radius: .6em;
+      margin-bottom: .5em;
+    }
+
+    #table-container {
+      flex-grow: 2;
+      flex-direction: column;
+      padding: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <form action="http://localhost:3000/penduduk" method="post" id="form">
+      <input type="text" name="nik" placeholder="NIK">
+      <input type="text" name="nama" placeholder="Nama">
+      <input type="text" name="alamat" placeholder="Alamat">
+      <button type="submit" id="btnSubmit">Kirim via URLEncoded</button>
+      <button type="button" id="btnJson">Kirim via JSON</button>
+    </form>
+  </div>
+
+  <div id="table-container">
+    <table border="1" cellSpacing="0" cellPadding="10">
+      <thead>
+        <td>NIK</td>
+        <td>Nama</td>
+        <td>Alamat</td>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+  <script>
+    const getValueELement = (name) => {
+      return document.getElementsByName(name)[0]
+    }
+
+    const nik = getValueELement('nik')
+    const nama = getValueELement('nama')
+    const alamat = getValueELement('alamat')
+    const postJSONButton = document.getElementById('btnJson')
+
+    postJSONButton.onclick = (e) => {
+      e.preventDefault()
+      console.log("NIK :", nik.value);
+      console.log("Nama :", nama.value);
+      console.log("Alamat :", alamat.value);
+
+      const urlPost = document.getElementById('form').getAttribute('action')
+      console.log(urlPost);
+
+      let dataJson = {
+        NIK: nik.value,
+        Nama: nama.value,
+        Alamat: alamat.value,
+      }
+      
+      const POSTConfiguration = {
+        method: 'POST',
+        body: JSON.stringify(dataJson),
+        headers: new Headers({
+          'Content-Type': 'application/json; charset=UTF-8'
+        })
+      }
+
+      fetch(urlPost, POSTConfiguration).then((res) => res.json()).then(res => console.log(res))
+    }
+  </script>
+</body>
+
+</html>

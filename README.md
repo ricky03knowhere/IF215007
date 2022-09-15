@@ -13,4 +13,14 @@
 ## Project's Stacks
 **Coming soon**
 ## Changelogs
-**Coming soon**
+- [Pertemuan 1](#pertemuan-1)
+- [Pertemuan 2](#pertemuan-2)
+
+### [Pertemuan 1](pertemuan_1)
+- ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox	3
+- ⚡`DEMO` : Javascript Data Transformation	4
+- ⚡`DEMO` : Browser API - Event Handling, Local Storage, Element manipulation
+- 🚀 `CREATE` [Project Proposal](project_proposal)
+
+### [Pertemuan 2](pertemuan_2)
+- ⚡`DEMO` : HTTP GET & POST using Form Action and Fetch API
