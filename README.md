@@ -20,6 +20,7 @@
 - [Pertemuan 5](#pertemuan-5)
 - [Pertemuan 6](#pertemuan-6)
 - [Pertemuan 7](#pertemuan-7)
+- [Pertemuan 8 (UTS)](#pertemuan-8)
 
 ### [Pertemuan 1](pertemuan_1)
 - ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox
@@ -54,3 +55,7 @@
     - Membuat File Inisiasi Aplikasi Express JS
     - Membuat Route RESTful API Sesuai Project
 
+### [Pertemuan 8](pertemuan_8(UTS))
+- ✅ `CREATE` : Mengerjakan UTS 
+  - Judul :  Tugas Media Ajar Kelas 5 SD (Konsep Dasar Web & Internet)
+  - Link Youtube : [https://www.youtube.com/watch?v=qSV4v7eEUVg](https://www.youtube.com/watch?v=qSV4v7eEUVg)
