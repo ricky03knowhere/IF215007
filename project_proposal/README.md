@@ -9,12 +9,15 @@
 - Membuat web informasi & pendaftaran online pesantren, yang kemudian santri dapat mendaftar & membayar biaya pendaftaran serta biaya bulanan secara online.
 
 ## Use Case
-- Santri dapat mendaftar & membayar biaya pendaftaran secara online.
-- Santri dapat melihat jadwal kegiatan, apa saja kitab yang dikaji serta ekstrakulikuler yang ada di pesantren.
-- Santri dapat membayar biaya bulanan secara online.
-- User (Santri & Admin) dapat melihat profil.
-- Admin dapat mengatur jadwal kegiatan dan kitab yang dikaji.
-- Admin dapat memverifikasi pembayaran santri.
+No. | Use case | Prioritas (1 - 5)
+---|---|---
+1| Santri dapat melihat jadwal kegiatan, apa saja kitab yang dikaji serta ekstrakulikuler yang ada di pesantren. | ⭐⭐⭐⭐⭐
+2| User (Santri & Admin) dapat register dan login pada website. | ⭐⭐⭐⭐
+3| Santri dapat mendaftar di pesantren & membayar biaya pendaftaran secara online. | ⭐⭐⭐⭐
+4| Santri dapat membayar biaya bulanan secara online dan melihat riwayat pembayaran. | ⭐⭐⭐
+5| Admin dapat memverifikasi pembayaran santri. | ⭐⭐⭐
+6| User (Santri & Admin) dapat melihat profil. | ⭐⭐
+7| Admin dapat mengatur jadwal kegiatan dan kitab yang dikaji. | ⭐⭐
 
 ## Struktur Data
 
