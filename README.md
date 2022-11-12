@@ -22,6 +22,7 @@
 - [Pertemuan 7](#pertemuan-7)
 - [Pertemuan 8 (UTS)](#pertemuan-8)
 - [Pertemuan 9](#pertemuan-9)
+- [Pertemuan 10](#pertemuan-10)
 
 ### [Pertemuan 1](pertemuan_1)
 - ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox
@@ -64,3 +65,8 @@
 ### [Pertemuan 9](pertemuan_9)
 - ⚡Instalasi dan Inisiasi Database MongoDB
 - ⚡Instalasi DBeaver
+
+### [Pertemuan 10](pertemuan_10)
+- 💭💡Membahas Cloud Computing : Goggle Cloud VS Amazon Web Service
+- 💭💡Membahas Cloud Computing : Bahasa Pemrograman yang dipakai
+- ⚡ `DEMO` Membuat project dengan express.js dan postgreSql
