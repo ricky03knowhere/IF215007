@@ -7,8 +7,8 @@
 #### 🌐 Website : [https://ricky03knowhere.github.io/](https://ricky03knowhere.github.io/)
 #### 🐱 Github  : [https://github.com/ricky03knowhere](https://github.com/ricky03knowhere/)
 #### 🛠️🚀 Project : 
-  - 💾 🔑 Backend (API) : TBA
-  - 🌈✨ Frontend (Website) : TBA
+  - 💾 🔑 Backend (API) : [https://github.com/ricky03knowhere/web-pesantren-api](https://github.com/ricky03knowhere/web-pesantren-api)
+  - 🌈✨ Frontend (Website) : [https://github.com/ricky03knowhere/pesantren-habiburahman](https://github.com/ricky03knowhere/pesantren-habiburahman)
 
 ## Project's Stacks
 **Coming soon**
@@ -23,6 +23,8 @@
 - [Pertemuan 8 (UTS)](#pertemuan-8)
 - [Pertemuan 9](#pertemuan-9)
 - [Pertemuan 10](#pertemuan-10)
+- [Pertemuan 11](#pertemuan-11)
+- [Pertemuan 12](#pertemuan-12)
 
 ### [Pertemuan 1](pertemuan_1)
 - ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox
@@ -70,3 +72,16 @@
 - 💭💡Membahas Cloud Computing : Goggle Cloud VS Amazon Web Service
 - 💭💡Membahas Cloud Computing : Bahasa Pemrograman yang dipakai
 - ⚡ `DEMO` Membuat project dengan express.js dan postgreSql
+
+### [Pertemuan 11](pertemuan_11)
+- 💭💡Membahas Linux Web Server
+- 💭💡Membahas Aneka Cheatsheet Shell
+- ✅ `CREATE` : Mengerjakan Quiz Linux Web Server
+- ⚡Instalasi WSL, zsh & zsh theme
+- ⚡`DEMO` : Penggunaan Vim
+
+
+### [Pertemuan 12](pertemuan_12)
+- ⚡`DEMO` : Login ke server dengan ssh
+- ⚡`DEMO` : File & Folder Mode and Ownership
+- ⚡`DEMO` : Penggunaan Vim
