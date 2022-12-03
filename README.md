@@ -25,6 +25,7 @@
 - [Pertemuan 10](#pertemuan-10)
 - [Pertemuan 11](#pertemuan-11)
 - [Pertemuan 12](#pertemuan-12)
+- [Pertemuan 13](#pertemuan-13)
 
 ### [Pertemuan 1](pertemuan_1)
 - ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox
@@ -85,3 +86,8 @@
 - ⚡`DEMO` : Login ke server dengan ssh
 - ⚡`DEMO` : File & Folder Mode and Ownership
 - ⚡`DEMO` : Penggunaan Vim
+
+### [Pertemuan 13](pertemuan_13)
+- 💭💡Membahas Cloud Computing  : Containerization
+- 💭💡Membahas Cloud Computing  : 
+- ⚡`DEMO` : Dockerizing Web App to Server
