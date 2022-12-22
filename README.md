@@ -13,6 +13,7 @@
 ## Project's Stacks
 **Coming soon**
 ## Changelogs
+- [Events](https://github.com/ricky03knowhere/IF215007/tree/main/events)
 - [Pertemuan 1](#pertemuan-1)
 - [Pertemuan 2](#pertemuan-2)
 - [Pertemuan 3](#pertemuan-3)
@@ -26,6 +27,9 @@
 - [Pertemuan 11](#pertemuan-11)
 - [Pertemuan 12](#pertemuan-12)
 - [Pertemuan 13](#pertemuan-13)
+- [Pertemuan 14](#pertemuan-14)
+- [Pertemuan 15](#pertemuan-15)
+- [Pertemuan 16 (UAS)](#pertemuan-16)
 
 ### [Pertemuan 1](pertemuan_1)
 - ⚡`DEMO` : HTML Responsive Layout with Media Query & Flexbox
@@ -88,6 +92,18 @@
 - ⚡`DEMO` : Penggunaan Vim
 
 ### [Pertemuan 13](pertemuan_13)
-- 💭💡Membahas Cloud Computing  : Containerization
-- 💭💡Membahas Cloud Computing  : 
 - ⚡`DEMO` : Dockerizing Web App to Server
+- 💭💡Membahas Cloud Computing  : Containerization
+
+### [Pertemuan 14](pertemuan_14)
+- ⚡`DEMO` : Progress Projek
+- 💭💡Membahas Web Security  : OWASP, Defender, & Attacker
+
+### [Pertemuan 15](pertemuan_15)
+- 💭💡Membahas Konsep Web  : Http, HTML, Web client & Server, Data Resource
+
+### [Pertemuan 16](pertemuan_16(UAS))
+- ✅ `CREATE` : Mengerjakan UAS
+  - [Soal & Jawaban UAS Teori](https://github.com/ricky03knowhere/IF214002/tree/main/pertemuan_16#uas-teori)
+- ✅ `CREATE` : Mengerjakan UAS Praktikum
+  - [Soal & Jawaban UAS Praktikum](https://github.com/ricky03knowhere/IF214002/tree/main/pertemuan_16#uas-praktikum)

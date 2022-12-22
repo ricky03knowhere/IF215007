@@ -3,7 +3,6 @@
 View at [Homepage](https://github.com/ricky03knowhere/IF215007#pertemuan-13)
 
 - 💭💡Membahas Cloud Computing  : Containerization
-- 💭💡Membahas Cloud Computing  : 
 - ⚡`DEMO` : Dockerizing Web App to Server
 
 
