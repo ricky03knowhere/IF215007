@@ -9,14 +9,13 @@ View at [Homepage](https://github.com/ricky03knowhere/IF215007#pertemuan-16)
 
 ## UAS TEORI
 - 🛠️🚀 Nama Projek : Sistem Informasi & Pendaftaran Online Pesantren Habiburrahman Banyuresmi Garut
-- ⚡🚀 Link Demo (Youtube)   : [Coming soon]()
+- ⚡🚀 Link Demo (Youtube)   : [https://youtu.be/AmXxGHNFGu0](https://youtu.be/AmXxGHNFGu0)
 - 💾 🔑 Backend (API) : [https://github.com/ricky03knowhere/web-pesantren-api](https://github.com/ricky03knowhere/web-pesantren-api)
 - 🌈✨ Frontend (Website) : [https://github.com/ricky03knowhere/pesantren-habiburahman](https://github.com/ricky03knowhere/pesantren-habiburahman)
+- 📱📶 Mobile App : [https://github.com/ricky03knowhere/pesantren-habiburahman-app](https://github.com/ricky03knowhere/pesantren-habiburahman-app)
 
 
 ## UAS PRAKTIKUM
-
-
 
 <table>
     <thead>
@@ -127,7 +126,7 @@ View at [Homepage](https://github.com/ricky03knowhere/IF215007#pertemuan-16)
 ![img](./postman.gif)
 ### Demo : PHP & Composer installation & hello world
 ![img](./php.gif)
-- 🚀Project : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
+- 🚀 `Project` : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
 ### Demo : PostgreSQL / MySQL installation
 ![img](./postgres.gif)
 ### Demo : DBeaver installation & DB connection
@@ -156,24 +155,24 @@ View at [Homepage](https://github.com/ricky03knowhere/IF215007#pertemuan-16)
 ### Demo : HTTP GET & POST using Form Action and Fetch API
 - ⚡`Lecture` : [Pertemuan 2](https://github.com/ricky03knowhere/IF215007/tree/main/pertemuan_2)
 ### Demo : PHP DB - Dynamic Web Page
-- 🚀Project : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
+- 🚀 `Project` : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
 ### Demo : PHP DB - Web Service
-- 🚀Project : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
+- 🚀 `Project` : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
 ### Demo : OOP-based PHP Project using Composer
-- 🚀Project : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
+- 🚀 `Project` : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
 ### Demo : Deploy PHP Project to Cpanel
 - None
 
 
 ## CLO-0213
 ### Demo : HTML Responsive Layout with Bootstrap
-- 🚀Project : [Website Portfolio (Bootstrap)](https://github.com/ricky03knowhere/ricky03knowhere.github.io)
-- 🌐Website : [https://ricky03knowhere.github.io/](https://ricky03knowhere.github.io/)
+- 🚀 `Project` : [Website Portfolio (Bootstrap)](https://github.com/ricky03knowhere/ricky03knowhere.github.io)
+- 🌐 `Website` : [https://ricky03knowhere.github.io/](https://ricky03knowhere.github.io/)
 
 ### Demo : Single Page App with React & React-router	
-- 🚀Project : [Website Pesantren (React)](https://github.com/ricky03knowhere/pesantren-habiburahman)
+- 🚀 `Project` : [Website Pesantren (React)](https://github.com/ricky03knowhere/pesantren-habiburahman)
 ### Demo : Dynamic Web Page using Laravel
-- 🚀Project : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
+- 🚀 `Project` : [Comic Store (Laravel)](https://github.com/ricky03knowhere/comic_store)
 ### Demo : Web Service using Slim
 - None
 ### Demo : News Site using Wordpress

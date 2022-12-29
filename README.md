@@ -7,8 +7,10 @@
 #### 🌐 Website : [https://ricky03knowhere.github.io/](https://ricky03knowhere.github.io/)
 #### 🐱 Github  : [https://github.com/ricky03knowhere](https://github.com/ricky03knowhere/)
 #### 🛠️🚀 Project : 
-  - 💾 🔑 Backend (API) : [https://github.com/ricky03knowhere/web-pesantren-api](https://github.com/ricky03knowhere/web-pesantren-api)
+  - 💾 🔑Backend (API) : [https://github.com/ricky03knowhere/web-pesantren-api](https://github.com/ricky03knowhere/web-pesantren-api)
   - 🌈✨ Frontend (Website) : [https://github.com/ricky03knowhere/pesantren-habiburahman](https://github.com/ricky03knowhere/pesantren-habiburahman)
+- 📱📶 Mobile App : [https://github.com/ricky03knowhere/pesantren-habiburahman-app](https://github.com/ricky03knowhere/pesantren-habiburahman-app)
+
 
 ## Project's Stacks
 **Coming soon**
@@ -104,6 +106,6 @@
 
 ### [Pertemuan 16](pertemuan_16(UAS))
 - ✅ `CREATE` : Mengerjakan UAS
-  - [Soal & Jawaban UAS Teori](https://github.com/ricky03knowhere/IF214002/tree/main/pertemuan_16#uas-teori)
+  - [Soal & Jawaban UAS Teori](pertemuan_16(UAS)#uas-teori)
 - ✅ `CREATE` : Mengerjakan UAS Praktikum
-  - [Soal & Jawaban UAS Praktikum](https://github.com/ricky03knowhere/IF214002/tree/main/pertemuan_16#uas-praktikum)
+  - [Soal & Jawaban UAS Praktikum](pertemuan_16(UAS)#uas-praktikum)
